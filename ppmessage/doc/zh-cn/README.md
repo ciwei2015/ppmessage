@@ -2,19 +2,13 @@
 
 [In English](/README.md)
 
-# PPMessage - 皮皮消息，即插即用，客户沟通，开源，纯Python实现。
+# PPMessage Lite Server - 皮皮消息，即插即用，纯Python实现。
 
-PPMessage 是一个开源的客户沟通平台。PPMessage 能够帮助你在第一时间与客人建立联系。开发人员可以非常容易的将 PPMessage 集成到网站移动应用之中。 PPMessage 同时提供在线[托管服务](https://ppmessage.com)，托管服务提供了更加丰富的功能。[托管服务](https://ppmessage.com)在接口层面与开源系统兼容。
+PPMessage Lite Server 是配合 PPMessage 在线服务[https://ppmessage.com] 提供的一个精简版的开源沟通平台，PPMessage Lite Server 能够在服务器接口级别与 PPMessage SaaS 服务兼容，其目标为开发者提供一个可以本地部署的测试开发平台。
 
+PPMessage Lite Server 建议部署到 macOS 上，其次 Debian Linux，再其次选择 Windows。
 
-PPMessage 后端建议部署到 Linux 上，推荐使用 Debian 或者 Ubuntu，同时支持 macOS 系统，方便开发者测试。
-
-PPMessage 提供了完整而清晰的 API 和 OAuth 系统，所有前端应用和 SDK 都是通过调用或者封装后端的 API 而实现。PPMessage 能够做到最大程度和最底层的整合开发。
-
-PPMessage 的前端 SDK 称为 PPCom，PPCom 可以集成到网站或者移动应用之中，为企业提供与客户建立交互的入口；给客服人员使用的 Web 应用叫做 PPKefu。
-
-
-PPConfig 只是用来辅助生成 PPMessage 运行所需的配置信息，保存在 ppmessge/bootstrap/config.json，如果想重新配置，只需要把这个文件删除，再运行 main.py。
+PPConfig 用来辅助生成运行所需的配置信息，配置信息保存在 ppmessge/bootstrap/config.json，如果想重新配置，只需要把这个文件删除，再运行 main.py。
 
 
 ## 快速上手
@@ -70,7 +64,7 @@ bash ppmessage/scripts/set-up-mac-on-linux.sh
 
 > 使用前请仔细阅读版权声明。
 
-PPMessage 源代码是按照 Apache License Version 2 开源的，其版权归属于原作者，并且只允许在单网站或者单应用上使用 PPMessage 及其衍生项目，如果想利用 PPMessage 的全部或者部分代码提供多租户（多站点）服务，请联系作者获取商业许可。
+本项目的源代码是按照 Apache License Version 2 开源的，其版权归属于原作者，并且只允许在单网站或者单应用和单客服上使用 PPMessage 及其衍生项目，如果想利用 PPMessage 的全部或者部分代码提供多租户（多站点）服务，请联系作者获取商业许可。
 
 [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 

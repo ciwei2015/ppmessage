@@ -6,15 +6,13 @@
 <img src="ppmessage/doc/ppkefu-ppcom.gif" height=400px></img>
 
 
-# PPMessage
+# PPMessage Lite Server
 
-With PPMessage, you can chat with visitor or customer via Web or mobile App.
+With [PPMessage](https://ppmessage.com), you can chat with visitor or customer via Web or mobile App.
 
-PPMessage targets to run on Linux, macOS and even **Windows** operating systems, including a series of frontend SDK named **PPCom** which run on your visitor or customer side, and a series of frontend App named **PPKefu** which run on your service team side. (Kefu comes from **客服** a chinese word, which means **agent** whose duty is customer service)
+PPMessage Lite Server targets to run on Linux, macOS and even **Windows** operating systems, and compatible with the [SaaS serivce](https://ppmessage.com), on interface level. It means Web or Mobile App integrated with PPMessage Lite Server can smoothly work with SaaS service with minor changes (different key).
 
-PPMessage provide a [SaaS serivce](https://ppmessage.com), which are compatible with the Open Souce code. It means Web or Mobile App integrated with PPCom can work with the Open Source and SaaS service with minor changes (different key).
-
-**PPConfig** is the first web UI you may meet. If you want to run a PPMessage server from source, PPMessage will guide you to config itself at first. After config is done, you will not need **PPConfig** any more. (Remove the `config.json` file under ppmessage/bootstrap, you can reconfig PPMessage with PPConfig)
+**PPConfig** is the first web UI you may meet. It will guide to config itself at first. After that, **PPConfig** not need any more. (Remove the `config.json` file under ppmessage/bootstrap, you can reconfig system with PPConfig)
 
 
 ## EASY START
@@ -67,16 +65,16 @@ Open your browser and visit `http://your.local.ip:8945`, check the log of `main.
 
 ## DOCUMENTS
 
-> Read following document to use and develop PPMessage. Check More details on [PPMessage Site](https://ppmessage.com).
+> Read following document to use and develop. Check More details on [PPMessage Site](https://ppmessage.com).
 
 * [Complete english manual](https://ppmessage.gitbooks.io/ppbook-en/content/)
 
 
 ## LICENSE 
 
-> Please read license carefully, you can use PPMessage freely under the license.
+> Please read license carefully, you can use PPMessage Lite Server freely under the license.
 
-PPMessage is open sourced and one domain (including one web site and one app) only, if needs more than one domain deployment you needs contact the author to get commercial permission.
+PPMessage Lite Server target to be used as testing and developing. So that only one service user and one domain (including one web site and one app) only, if needs more than one domain deployment you needs contact the author to get commercial permission.
 
 [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
