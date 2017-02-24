@@ -64,7 +64,7 @@ bash ppmessage/scripts/set-up-mac-on-linux.sh
 
 > 使用前请仔细阅读版权声明。
 
-本项目的源代码是按照 Apache License Version 2 开源的，其版权归属于原作者，并且只允许在单网站或者单应用和单客服上使用 PPMessage 及其衍生项目，如果想利用 PPMessage 的全部或者部分代码提供多租户（多站点）服务，请联系作者获取商业许可。
+本项目的源代码是按照 Apache License Version 2 开源的，其版权归属于原作者，并且只提供在单网站或者单应用和单客服上使用，如果有其他需要，请联系作者获取商业许可。
 
 [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
