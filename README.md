@@ -8,7 +8,7 @@
 
 # PPMessage Lite Server
 
-With [PPMessage](https://ppmessage.com), you can chat with visitor or customer via Web or mobile App.
+With [PPMessage](https://ppmessage.com), you can chat with customer via Web or mobile App.
 
 PPMessage Lite Server targets to run on Linux, macOS and even **Windows** operating systems, and compatible with the [SaaS serivce](https://ppmessage.com), on interface level. It means Web or Mobile App integrated with PPMessage Lite Server can smoothly work with SaaS service with minor changes (different key).
 
