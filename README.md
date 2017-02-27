@@ -10,9 +10,7 @@
 
 With [PPMessage](https://ppmessage.com), you can chat with customer via Web or mobile App.
 
-PPMessage Lite Server targets to run on Linux, macOS and even **Windows** operating systems, and compatible with the [SaaS serivce](https://ppmessage.com), on interface level. It means Web or Mobile App integrated with PPMessage Lite Server can smoothly work with SaaS service with minor changes (different key).
-
-**PPConfig** is the first web UI you may meet. It will guide to config itself at first. After that, **PPConfig** not need any more. (Remove the `config.json` file under ppmessage/bootstrap, you can reconfig system with PPConfig)
+PPMessage Lite Server targets to help [PPMessage](https://ppmessage.com) developer to deploy a test server on local machine. It could run on Linux, macOS and even **Windows** operating systems, and compatible with the [SaaS serivce](https://ppmessage.com) on interface level. It means Web or Mobile App integrated with `PPMessage Lite Server` can smoothly work with PPMessage Online SaaS service with minor changes (different key).
 
 
 ## EASY START
@@ -20,7 +18,7 @@ PPMessage Lite Server targets to run on Linux, macOS and even **Windows** operat
 > Clone
 
 ```bash
-git clone https://github.com/PPMESSAGE/ppmessage.git
+git clone https://github.com/PPMESSAGE/ppmessage-lite-server.git
 cd ppmessage
 ```
 
@@ -44,21 +42,24 @@ bash ppmessage/scripts/set-up-ppmessage-on-mac.sh
 Check [this](doc/en-us/install-ppmessage-on-windows.md)
 
 
-> Run and check log
 
 ```bash
-./main.py
+./config.py
+```
+
+```bash
+./lite.py
 ```
 
 > Access
 
 
 ```bash
-Open your browser and visit `http://your.local.ip:8945`, check the log of `main.py` to use your URL instead.
+Open your browser and visit `http://127.0.0.1:8945`
 
 ```
 
-> Reconfig PPMessage, just remove the file `ppmessage/bootstrap/config.json` and run `main.py` again.
+> Reconfig PPMessage, just remove the file `ppmessage/bootstrap/config.json` and run `config.py` again.
 
 
 > Not working yet? Please fire an issue on Github, thanks. Enjoy!
@@ -99,6 +100,8 @@ limitations under the License.
 
 
 ## OTHER PROJECTS
+
+* [PPMessage Lite Server](https://github.com/PPMESSAGE/ppmessage-lite-server)
 
 * [PPCom iOS SDK](https://github.com/PPMESSAGE/ppcom-ios-sdk)
 
