@@ -5,6 +5,7 @@
 
 <img src="doc/ppkefu-ppcom.gif" height=400px></img>
 
+<strong>Original code has been moved to [ppmessage-lite-server](https://github.com/PPMESSAGE/ppmessage-lite-server) </strong>
 
 # PPMessage Lite Server
 
