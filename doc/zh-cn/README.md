@@ -42,7 +42,7 @@ bash ppmessage/scripts/set-up-mac-on-linux.sh
 
 
 ```bash
-./config.py
+./config.py --email=你的邮箱地址 --password=初始化密码
 ```
 
 ```bash
@@ -50,6 +50,8 @@ bash ppmessage/scripts/set-up-mac-on-linux.sh
 ```
 
 > 删除文件 ppmessage/bootstrap/config.json，再运行 main.py 就可以重新配置。
+
+打开浏览器访问 http://127.0.0.1:8945，用你配置的`邮箱地址`和`初始化密码`登录。
 
 > 就是这些，不工作？请将日志贴到 Github issue 中，谢谢！
 
