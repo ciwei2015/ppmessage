@@ -1,19 +1,13 @@
 
-<!-- Customer             |  Service -->
-<!-- :-------------------------:|:-------------------------: -->
-<!-- ![](doc/ppcom.gif)  | ![](doc/ppkefu.gif) -->
+<strong> This project is closed! </strong>
 
-<img src="doc/ppkefu-ppcom.gif" height=400px></img>
+Goto [ppmessage.com](https://ppmessage.com) or [ppmessage.cn](https://ppmessage.cn) to get more information.
 
-<strong>Original code has been moved to [ppmessage-lite-server](https://github.com/PPMESSAGE/ppmessage-lite-server) </strong>
+<strong> 该项目已关闭 </strong>
 
+更多信息可以去 [ppmessage.com](https://ppmessage.com) 或者 [ppmessage.cn](https://ppmessage.cn)。
 
-## OTHER LANGUAGES
-
-[In Chinese 中文版](doc/zh-cn/README.md)
-
-
-## OTHER PROJECTS
+## other PROJECTS
 
 * [PPMessage Lite Server](https://github.com/PPMESSAGE/ppmessage-lite-server)
 
