@@ -1,5 +1,5 @@
 
-<strong> This project is closed! </strong>
+<strong> This project has been closed! </strong>
 
 Goto [ppmessage.com](https://ppmessage.com) or [ppmessage.cn](https://ppmessage.cn) to get more information.
 
